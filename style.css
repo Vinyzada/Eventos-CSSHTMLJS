@@ -1,0 +1,54 @@
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    user-select: none;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+#pesquisaNome{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pesquisaNome input{
+    margin: 40px;
+}
+
+#pesquisaNome ul{
+    height: 400px;
+    overflow: hidden;
+    overflow-y: visible;
+}
+
+#pesquisaNome li{
+    margin: 5px;
+}
+
+#tabuada{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+#tabuada div{
+    margin-top: 25px;
+}
